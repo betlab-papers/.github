@@ -1,47 +1,56 @@
 <h1 align="center">
-  BET Lab - Paper Repositories
+  BET Lab — Internal Paper Dashboard
 </h1>
 
 <p align="center">
-  <em>Building Energy Technology Laboratory</em><br/>
-  Reproducible research artifacts for our publications
-</p>
-
-<p align="center">
-  <a href="https://github.com/orgs/betlab-papers/repositories">
-    <img src="https://img.shields.io/badge/Repositories-Browse_All-2ea44f?style=for-the-badge&logo=github" alt="Browse Repositories"/>
-  </a>
+  <b>🔒 Internal Use Only</b> • <em>Latex-based Paper Writing Workflow</em>
 </p>
 
 ---
 
-## 📖 About
+## 🚀 Quick Start
 
-This organization hosts the **source code, data pipelines, and experiment scripts** accompanying peer-reviewed publications from **BET Lab** (Building Energy Technology Laboratory).
+1.  **New Paper**: Copy a template from `Journal-templates`.
+2.  **Agent Setup**: Ensure your repo has the `.agent` folder from `paper-agent-rules`.
+3.  **Environment**: Use `uv` for python dependencies.
 
-Each repository corresponds to a published or submitted paper and is designed to enable **full reproducibility** of the reported results.
+## 📝 Active Manuscripts
 
-## 📂 Repository Index
+| Repository | Description / Note |
+|:-----------|:-------------------|
+| [**Privacy-preserving-transfer-learning**](https://github.com/betlab-papers/Privacy-preserving-transfer-learning) | <em>Under Review</em>. PPTL Framework. |
+| [**Contextually-Extended-iTransformer...**](https://github.com/betlab-papers/Contextually-Extended-iTransformer-for-virtual-sensor-networks) | Virtual sensor networks paper. |
+| [**Sensing-priorities-for-occupant...**](https://github.com/betlab-papers/Sensing-priorities-for-occupant-centric-comfort-control-under-privacy-constraints) | Occupant-centric comfort control. |
+| [**Annual-Energy-and-Exergy-Analysis-of-ASHP**](https://github.com/betlab-papers/Annual-Energy-and-Exergy-Analysis-of-ASHP) | Heat pump analysis. |
 
-| Repository | Paper | Status |
-|:-----------|:------|:------:|
-| [Privacy-preserving-transfer-learning](https://github.com/betlab-papers/Privacy-preserving-transfer-learning) | Privacy-Preserving Transfer Learning for Building Energy Forecasting | 📝 Under Review |
+## 🛠️ Assets & Tools
 
-> Repositories will be added as new papers are published.
+| Repository | Purpose |
+|:-----------|:--------|
+| [**Journal-templates**](https://github.com/betlab-papers/Journal-templates) | Elsevier, IEEE, and other LaTeX templates. |
+| [**paper-agent-rules**](https://github.com/betlab-papers/paper-agent-rules) | Source of truth for Agent rules & skills. |
+| [**.github**](https://github.com/betlab-papers/.github) | Organization profile & global configs. |
 
-## 🔬 Research Areas
+## 🤖 Agentic Workflow (Gemini)
 
-- 🏢 Building energy modeling & forecasting
-- 🔒 Privacy-preserving machine learning
-- 🔄 Transfer learning & federated learning
-- 📊 Time-series analysis
+This organization uses a standardized **Agentic Workflow** for paper writing.
 
-## 📬 Contact
+### Directory Structure Standard
+```
+repo/
+├── .agent/              # Rules, Skills, Workflows
+├── Submission/          # Clean LaTeX for submission
+├── nomenclature_example/ # Nomencl logic
+└── figures/             # Source figures
+```
 
-For questions about specific papers or code, please open an **Issue** in the relevant repository.
+### Key Commands (Slash Command)
+- `/pre-submission`: Run checks before submisison.
+- `/bibtex-verify`: Validate references.
+- `/table-align`: Auto-format tables.
 
 ---
 
 <p align="center">
-  <sub>© BET Lab · Korea</sub>
+  <sub>Maintainer: Wonjun | Last Updated: 2026-02-09</sub>
 </p>
