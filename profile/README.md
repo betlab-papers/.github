@@ -1,5 +1,5 @@
   <h1 align="center">
-  BET Lab — Internal Paper Dashboard
+  betlab — Internal Paper Dashboard
 </h1>
 
 <p align="center">
