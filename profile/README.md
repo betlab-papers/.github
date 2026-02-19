@@ -29,6 +29,15 @@ The centralized logic core for the Antigravity Agent. It provides a standardized
 
 ---
 
+## 🏛️ Managed Paper Repositories
+
+All research papers in this organization follow a strict **Dual-Repository Structure**:
+
+1. **Paper Repository** (`paper-name`): Contains the actual manuscript content (`.tex` / `.typ`), data, and figures.
+2. **Agent Logic** (`.agent`): A submodule or subtree of `writing-agent-playbook` that provides the tooling context.
+
+This ensures that every paper project has access to standard writing tools while maintaining content independence.
+
 ## 🔗 Quick Documentation
 
 - **[Agent Architecture](https://github.com/betlab-papers/writing-agent-playbook/blob/main/docs/architecture_diagrams.md)**: Visual map of rules, skills, and workflows.
