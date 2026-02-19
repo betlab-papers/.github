@@ -36,7 +36,13 @@ All research papers in this organization follow a strict **Dual-Repository Struc
 1. **Paper Repository** (`paper-name`): Contains the actual manuscript content (`.tex` / `.typ`), data, and figures.
 2. **Agent Logic** (`.agent`): A submodule or subtree of `writing-agent-playbook` that provides the tooling context.
 
-This ensures that every paper project has access to standard writing tools while maintaining content independence.
+### 📑 Active Research Papers
+
+| Paper                                                                                                                       | Status         | Description                                          |
+| :-------------------------------------------------------------------------------------------------------------------------- | :------------- | :--------------------------------------------------- |
+| **[Annual-energy-and-exergy-analysis-of-ASHP](https://github.com/betlab-papers/Annual-energy-and-exergy-analysis-of-ASHP)** | 🟡 In Progress | Energy and exergy analysis of Air Source Heat Pumps. |
+
+> _Note: This list is manually maintained. For a full list of repositories, visit the [Repositories tab](https://github.com/orgs/betlab-papers/repositories)._
 
 ## 🔗 Quick Documentation
 
