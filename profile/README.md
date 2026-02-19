@@ -38,9 +38,12 @@ All research papers in this organization follow a strict **Dual-Repository Struc
 
 ### 📑 Active Research Papers
 
-| Paper                                                                                                                       | Status         | Description                                          |
-| :-------------------------------------------------------------------------------------------------------------------------- | :------------- | :--------------------------------------------------- |
-| **[Annual-energy-and-exergy-analysis-of-ASHP](https://github.com/betlab-papers/Annual-energy-and-exergy-analysis-of-ASHP)** | 🟡 In Progress | Energy and exergy analysis of Air Source Heat Pumps. |
+| Paper                                                                                                                                                                                                       | Status         | Description                                                                               |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------- | :---------------------------------------------------------------------------------------- |
+| **[Annual-energy-and-exergy-analysis-of-ASHP](https://github.com/betlab-papers/Annual-energy-and-exergy-analysis-of-ASHP)**                                                                                 | 🟡 In Progress | Energy and exergy analysis of Air Source Heat Pumps.                                      |
+| **[Continuous-privacy-preserving-transfer-learning](https://github.com/betlab-papers/Continuous-privacy-preserving-transfer-learning)**                                                                     | 🟡 In Progress | Adaptive privacy-preserving transfer learning for continuous building energy forecasting. |
+| **[Contextually-Extended-iTransformer-for-virtual-sensor-networks](https://github.com/betlab-papers/Contextually-Extended-iTransformer-for-virtual-sensor-networks)**                                       | 🟡 In Progress | Contextually Extended iTransformer for Virtual Sensor Networks.                           |
+| **[Sensing-priorities-for-occupant-centric-comfort-control-under-privacy-constraints](https://github.com/betlab-papers/Sensing-priorities-for-occupant-centric-comfort-control-under-privacy-constraints)** | 🟡 In Progress | Sensing Priorities for Occupant-Centric Comfort Control.                                  |
 
 > _Note: This list is manually maintained. For a full list of repositories, visit the [Repositories tab](https://github.com/orgs/betlab-papers/repositories)._
 
